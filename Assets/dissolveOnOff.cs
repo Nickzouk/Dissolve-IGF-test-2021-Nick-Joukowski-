@@ -15,7 +15,10 @@ public class dissolveOnOff : MonoBehaviour
             nikosFouma.material.SetInt("_Booleanonoff",1);
         }
 
-
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
 
     }
 }
